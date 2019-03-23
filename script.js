@@ -66,8 +66,8 @@ window.onload = function(){
     ctx.strokeText("Game Over", centreX, centreY - 180);
     ctx.fillText("Game Over", centreX, centreY - 180);
     ctx.font = "bold 30px sans-serif";
-    ctx.strokeText("Appuyer sur la touche Espace pour rejouer", centreX, centreY - 120);
-    ctx.fillText("Appuyer sur la touche Espace pour rejouer", centreX, centreY - 120);
+    ctx.strokeText("Appuyer sur la touche F5 pour rejouer", centreX, centreY - 120);
+    ctx.fillText("Appuyer sur la touche F5 pour rejouer", centreX, centreY - 120);
     ctx.restore();
   }
 
